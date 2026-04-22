@@ -1,4 +1,16 @@
-﻿using UdonSharp;
+// <Kawakaze's Airport> - <Airport facilities for VRChat>
+// Copyright (C) 2026 <KWKZ-ES1111>
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
@@ -114,7 +126,7 @@ public class VDGS_Core : UdonSharpBehaviour
         // X = 水平, Y = 屏幕深度(由 Center 决定), Z = 垂直高度
         Vector3 finalPos = new Vector3(targetX, lCenter.y, targetZ);
 
-        // Debug 输出：确保你看到 Z 在变化
+        // Debug 输出
         if (Time.frameCount % 30 == 0) {
             Debug.Log($"[VDGS] Dist:{dist:F2} | tz:{tz:F2} | ResultZ:{targetZ:F4}");
         }
