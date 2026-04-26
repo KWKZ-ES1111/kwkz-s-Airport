@@ -2,11 +2,11 @@
 >Build your airport like LEGO in VRChat!
 >在VRChat里像玩乐高一样搭建机场！
 
-这是一个包含了一些机场设施的库，适用于VRChat世界，部分内容需要 https://github.com/Sacchan-VRC/SaccFlightAndVehicles/releases/tag/1.64 为依赖项目。
+这是一个包含了一些机场设施的库，适用于VRChat世界，部分内容需要 https://github.com/Sacchan-VRC/SaccFlightAndVehicles/releases/tag/1.64 为依赖项目（带有'*'标记）。
 
 ## 已实现的
 - VDGS 视觉对接引导系统
-- WindCone 风向袋
+- WindCone 风向袋*
 - ALSGenerater 程序化进近灯光生成器
 
 ## 计划中的
